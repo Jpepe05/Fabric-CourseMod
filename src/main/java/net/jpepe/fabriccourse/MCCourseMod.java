@@ -1,6 +1,8 @@
 package net.jpepe.fabriccourse;
 
 import net.fabricmc.api.ModInitializer;
+import net.jpepe.fabriccourse.block.ModBlocks;
+import net.jpepe.fabriccourse.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,6 +18,9 @@ public class MCCourseMod implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 		LOGGER.info("Hello Fabric world!");
 	}
