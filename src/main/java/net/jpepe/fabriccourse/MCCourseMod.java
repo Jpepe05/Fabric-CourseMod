@@ -3,6 +3,7 @@ package net.jpepe.fabriccourse;
 import net.fabricmc.api.ModInitializer;
 import net.jpepe.fabriccourse.block.ModBlocks;
 import net.jpepe.fabriccourse.item.ModItems;
+import net.jpepe.fabriccourse.util.ModRegistries;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -21,6 +22,8 @@ public class MCCourseMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModRegistries.registerModStuffs();
 
 		LOGGER.info("Hello Fabric world!");
 	}

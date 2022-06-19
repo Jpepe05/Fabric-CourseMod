@@ -3,6 +3,7 @@ package net.jpepe.fabriccourse.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.jpepe.fabriccourse.MCCourseMod;
+import net.jpepe.fabriccourse.block.custom.SpeedyBlock;
 import net.jpepe.fabriccourse.item.ModItemGroups;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
@@ -30,6 +31,12 @@ public class ModBlocks {
   public static final Block DEEPSLATE_ORICHALCUM_ORE =
       registerBlock(
           "deepslate_orichalcum_ore", createBlock(Material.STONE, 4f, true), ModItemGroups.COURSE);
+
+  public static final Block SPEEDY_BLOCK =
+      registerBlock(
+          "speedy_block",
+          new SpeedyBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()),
+          ModItemGroups.COURSE);
 
   @NotNull
   private static Block createBlock(Material stone, float strength, boolean requireTool) {
