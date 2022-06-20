@@ -11,6 +11,15 @@
   "block.mccourse.raw_orichalcum_block": "Raw Orichalcum Block",
   "block.mccourse.deepslate_orichalcum_ore": "Deepslate Orichalcum Ore",
   "block.mccourse.speedy_block": "Speedy Block",
+  "block.mccourse.orichalcum_stairs": "Orichalum Stairs",
+  "block.mccourse.orichalcum_slab": "Orichalum Slab",
+  "block.mccourse.orichalcum_button": "Orichalcum Button",
+  "block.mccourse.orichalcum_pressure_plate": "Orichalcum Pressure Plate",
+  "block.mccourse.orichalcum_fence": "Orichalcum Fence",
+  "block.mccourse.orichalcum_fence_gate": "Orichalcum Fence Gate",
+  "block.mccourse.orichalcum_wall": "Orichalcum Wall",
+  "block.mccourse.cherry_blossom_door": "Cherry Blossom Door",
+  "block.mccourse.cherry_blossom_trapdoor": "Cherry Blossom Trapdoor",
 
   "itemGroup.mccourse.course": "Course Tab",
 

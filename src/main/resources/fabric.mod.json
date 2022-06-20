@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.jpepe.fabriccourse.MCCourseMod"
+    ],
+    "client": [
+      "net.jpepe.fabriccourse.MCCourseClient"
     ]
   },
   "mixins": [
